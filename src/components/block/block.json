@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_blocks",
+  "info": {
+    "displayName": "block",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "eitor": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_group_event_groups",
+  "info": {
+    "displayName": "event_group",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "event_time": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event-group.event-time"
+    }
+  }
+}

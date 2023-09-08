@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_content_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "italic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "displayName": "text",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.text"
+    },
+    "Terms_and_Conditions": {
+      "type": "richtext"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": [
+        "en-US",
+        "zh-CN",
+        "vi-VN",
+        "th-TH",
+        "id-ID",
+        "ms-MY"
+      ],
+      "required": true
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.custom-table"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promos",
+  "info": {
+    "singularName": "promo",
+    "pluralName": "promos",
+    "displayName": "Promo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {},
+      "unique": false
+    },
+    "events": {
+      "type": "dynamiczone",
+      "components": [
+        "event-group.event-group"
+      ],
+      "required": true,
+      "pluginOptions": {}
+    },
+    "document": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "content.content"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Play and Win",
+        "Fishing Hunter",
+        "Other"
+      ],
+      "required": true
+    },
+    "block": {
+      "type": "dynamiczone",
+      "components": [
+        "block.side-link-item",
+        "block.curr-table"
+      ]
+    }
+  }
+}

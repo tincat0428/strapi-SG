@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_curr_value_curr_values",
+  "info": {
+    "displayName": "curr_value",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "string"
+    },
+    "point_value": {
+      "type": "decimal"
+    },
+    "ranking_list": {
+      "type": "json"
+    }
+  }
+}

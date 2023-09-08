@@ -1,0 +1,10 @@
+**編輯者測試帳號**
+SG-AM-editor
+tincat0428@gmail.com
+Lululala123
+
+**API**
+---活動頁支援語系---
+/api/getLocaleList/{:活動路徑}
+---活動頁資料---
+/api/getPromo/{:活動路徑}?locale={:語系}

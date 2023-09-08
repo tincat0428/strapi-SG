@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_event_time_event_times",
+  "info": {
+    "displayName": "event_time",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    }
+  }
+}

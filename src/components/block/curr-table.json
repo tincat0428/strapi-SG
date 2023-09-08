@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_curr_table_curr_tables",
+  "info": {
+    "displayName": "curr_table",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point_value": {
+      "type": "decimal"
+    },
+    "ranking": {
+      "type": "json"
+    },
+    "curr_value": {
+      "displayName": "curr_value",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.curr-value"
+    }
+  }
+}
